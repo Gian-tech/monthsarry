@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Add this inside your .container div or wherever you want the link to appear -->
+<a href="https://www.monthsarry.com" target="_blank">MOTMOT</a>
+
+  <title>Happy 4th Monthsarry💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Happy 4th Monthsary, My loveee!! 💖</h1>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+      <img src="picture1.jpg" class="slide" style="display:block;">
+      <img src="picture2.jpg" class="slide">
+      <img src="picture3.jpg" class="slide">
+      <img src="picture4.jpg" class="slide">
+      <img src="picture5.jpg" class="slide">
+      <img src="picture6.jpg" class="slide">
+      <img src="picture7.jpg" class="slide">
+      <img src="picture8.jpg" class="slide">
+    </div>
+
+    <!-- Background Music -->
+    <audio controls autoplay loop>
+      <source src="hangin - yno (official lyric video).mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Message -->
+    <div class="message-box">
+      <p>Hi my loveloveeee,,</p>
+      <p>Happy 4th Monthsary sa atin! Grabe, apat na buwan na pala tayong magkasama — apat na buwan ng tawa, lambing, iyak, tampuhan, kulitan, kwentuhan, inisan, awayan, minsan nawawala sa mood, at higit sa lahat… pagmamahalan. Para bang kahapon lang nung una kitang nakilala, pero ngayon, hindi ko na ma-imagine ang araw ko na wala ka.</p>
+      <p>Alam mo, sa bawat araw na lumilipas, mas lalo kong nare-realize kung gaano ako kaswerte na ikaw ang kasama ko sa journey ng buhay ko. Hindi man tayo perpekto, pero pinipili pa rin natin ang isa’t isa sa bawat pagkakataon. 'Yung mga simpleng moments natin — sabay kumain habang naka-video call, magtawanan sa mga walang kwentang jokes, o kahit ‘yung tahimik lang pero magkasama — lahat ‘yon priceless para sa’kin.</p>
+      <p>Ang dami na nating ginawa, love. Naalala mo pa ba yung unang lakad natin? O yung araw na nag-foodtrip tayo kahit saan? Yung biglaang gala, yung mga photos natin na ang saya lang balikan, at lalo na yung mga bonding natin kahit nasa bahay lang. Ibang klase talaga kapag ikaw ang kasama ko — parang kahit simpleng bagay, nagiging espesyal.</p>
+      <p>Napakasarap mong kausap, kasama, at ka-bonding. Kapag pagod ako, isa ka sa mga unang naiisip kong kausapin kasi alam kong kahit anong lungkot ko, kaya mong palitan ng ngiti. Yung care mo, yung effort mo kahit sa maliliit na bagay, sobrang na-appreciate ko ‘yon. Hindi mo lang ako pinapasaya — pinaparamdam mo rin sa’kin na mahalaga ako, na may taong totoong nagmamahal sa akin.</p>
+      <p>Minsan may tampuhan tayo, hindi pagkakaintindihan, pero natutunan natin mahalin ang isa’t isa sa kabila ng imperfections. Sa bawat pagsubok na dumadaan, mas lalo tayong tumitibay. Hindi madali, pero alam kong kaya natin — dahil pinipili nating ipaglaban ‘to araw-araw.</p>
+      <p>Thank you for being my partner, my best friend, my happy place. Thank you for loving me even on days when I’m not easy to love. Thank you sa effort, sa oras, sa pagmamahal mo. I may not always have the perfect words, pero sana maramdaman mo kung gaano kita kamahal at gaano ako ka-proud na ikaw ang kasama ko.</p>
+      <p>Here’s to more months, more memories, more adventures, more growth, and more love. Hindi lang 4 months — gusto ko ng forever kasama ka. 💗</p>
+      <p class="signature">I love you always and endlessly, Jenny Camille. Happy Monthsary. <br><strong>— Gian Rick 💌</strong></p>
+    </div>
+
+    <footer>Made with love • July 22, 2025</footer>
+  </div>
+
+  <!-- Slideshow Script -->
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlides() {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+
+    showSlides();
+  </script>
+</body>
+</html>
